@@ -1,0 +1,23 @@
+{
+  "name": "game_of_life",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriiDev96/Game_of_life.git"
+  },
+  "author": "Andrii Volianskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndriiDev96/Game_of_life/issues"
+  },
+  "homepage": "https://github.com/AndriiDev96/Game_of_life#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
