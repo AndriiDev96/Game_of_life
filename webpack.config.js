@@ -1,7 +1,5 @@
 const path = require('path');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
-console.log(BrowserSyncPlugin);
-
 
 module.exports = {
     entry: {
@@ -11,7 +9,7 @@ module.exports = {
    output: {
       filename: 'bundler.js',
       path: path.resolve(__dirname, './dist'),
-      publicPath: '/dist'
+      publicPath: '/'
     },
 
     watch: true,
@@ -23,7 +21,7 @@ module.exports = {
     plugins: [
         new BrowserSyncPlugin({
           host: 'localhost',
-          port: 3000,
+          port: 3003,
           server: { baseDir: ['./dist'] }
         })
     ]
